@@ -1,0 +1,338 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+}
+html{
+    font-family: 'Montserrat', sans-serif;
+    }
+
+.container  #head{
+    height: 50px;
+    display: flex;
+    flex-direction: row;
+    text-transform: uppercase;
+    background-color: rgb(44, 37, 37);
+    
+}
+h1{
+    width: 35%;
+    color: rgb(19, 8, 26);
+    margin: auto;
+    font-size: 30px;
+    word-spacing: 7px;
+    font-weight: bold;
+    border: 2px solid blue;
+    border-radius: 20px;
+    padding: 5px;
+    background-color: white;
+
+   
+    
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    margin-left: 30px;
+          
+    text-shadow: 2px 2px #ff0000;
+}
+.container{
+    background-color: rgb(65, 57, 57);
+}
+#body::after{
+    content: '';
+    position: absolute;
+    left: 0;
+    top: 0;
+    height: 100%;
+    width: 100%;
+    background-color: black;
+    opacity: .7;
+    z-index: -1;
+}
+
+.topic{
+    color:rgb(56, 9, 9);
+    font-size: 20px;
+    margin: auto;
+    text-decoration: none;
+    font-weight: 800;
+    background-color: white;
+    border: 2px solid blue;
+    border-radius: 20px;
+    letter-spacing: 2px;
+   font-family: fantasy;
+    padding: 5px;
+   
+}
+.topic:hover{
+    font-size: 110%;
+    color: brown;
+}
+.container #body{
+    background-image: url(./img/bg2.jpg);
+    height: 700px;
+    width: 1350px;
+    object-fit: cover;
+    background-size: cover;
+    background-position:  center;
+    position: relative;
+    z-index: 0;
+}
+
+h2{
+    width: 300px;
+    padding: 200px 150px ;
+    padding-bottom: 0;
+    font-size: 60px;
+    color: red;
+    text-shadow: 2px 2px white;
+    font-variant: inherit;
+    font-weight: 2000;
+    font-family: Georgia, 'Times New Roman', Times, serif;    
+}
+h4{
+    margin-left: 400px;
+}
+h6{
+    align-items: left;
+    margin-left: 200px;
+    
+}
+#about{
+   padding-top: 60px;
+    height: 200px;
+    width: 100%;
+    background-color: rgb(48, 38, 26);
+}
+h3{
+      margin: 20px 600px;
+      
+      color: goldenrod;
+      font-size: 30px;
+     
+}
+p{
+    margin: auto;
+    color: ivory;
+    margin-left: 200px;
+    margin-right: 200px;
+}
+img{
+    height: 200px;
+    width: 200px; 
+    margin: 0px 100px;
+    
+}
+#services{
+    padding-top: 40px;
+}
+.sbody{
+    padding: 20px 0px;
+    margin: 20px;
+    
+}
+.inner{
+    width: 600px;
+    height: 300px;
+    border: 3px solid red;
+    margin: auto;
+    padding: 10px;
+    margin-bottom: 20px;
+    border-radius: 20px;
+    
+    
+}
+h4{
+    color: white;
+}
+.h{
+    margin: auto;
+    padding:20px 0px ;
+    margin-left: 180px;
+    font-size: 20px;
+    color: white;
+}
+.in{
+    display: flex ;
+    flex-direction: row;
+}
+.desc{
+    margin: 10px;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+#contact{
+    width: 600px;
+    height: 400px;
+}
+#contact #contact_form{
+    margin: 20px 550px;
+    color: white;
+    
+}
+.row{
+    margin: 20px 0px;
+}
+.footer{
+width: 100%;
+height: 200px;
+background-color: grey;
+}
+#owner{
+    margin: 0px 480px;
+    font-size: 30px;
+    padding-top: 20px;
+    color: black;
+}
+span{
+    font-size: 10px;
+}
+.i{
+    width: 50px;
+    height: 50px;
+}
+.icon{
+    width: 250px;
+    height: 100px;
+    display: flex;
+    flex-direction: row;
+     margin: auto;
+     padding-right: 230px;
+
+    
+
+}
+.item{
+    margin: 20px;
+    width: 30px;
+    height: 30px;
+
+}
+#copy{
+    margin: 10px 530px;
+    color: black;
+}
+@media only screen and (max-width: 600px) {
+    .contanier #body {
+      background-color: lightblue;
+    }
+    h1{
+        width: 35%;
+        color: white;
+        margin: auto;
+        font-size: 15px;
+        word-spacing: 0px;
+        font-weight: bold;
+        border: 0px solid blue;
+        border-radius: 0px;
+        padding: 0px;
+        background-color:  rgb(44, 37, 37);
+    
+       
+        
+        font-family: Georgia, 'Times New Roman', Times, serif;
+        margin-left: 10px;
+              
+        text-shadow: 0px 0px #ff0000;
+    }
+    .topic{
+        color:white;
+        font-size: 10px;
+        margin: auto;
+        text-decoration: none;
+        font-weight: 00;
+        background-color:  rgb(44, 37, 37);
+        border: 0px solid blue;
+        border-radius: 0px;
+        letter-spacing: 0px;
+       font-family: serif;
+        padding: 0px;
+       
+    }
+    h2{
+        font-size: 30px;
+        margin: 0px -80px;
+        width: 37%;
+        
+    }
+    h4{
+        font-size: 10px;
+        margin: auto;
+        margin-left: 140px;
+    }
+    .container #body{
+     width: 350px;
+     height: 600px;
+
+    }
+    h3{
+        margin: auto;
+        margin-left: 110px;
+    }
+    p{
+        font-size: 15px;
+        margin: 0px 20px ;
+    }
+    .sbody{
+        margin-left: 10px;
+    }
+    .inner{
+        width: 300px;
+        
+
+    }
+    img{
+        width: 150px;
+        height: 150px;
+        margin: auto;
+        
+        margin-top: 0px;
+    }
+    .h{
+        margin-left: 70px;
+        font-size: 17px;
+
+    }
+    .desc{
+        font-size: 10px;
+        margin: 0px;
+      
+               
+        padding-bottom: 10px;
+    }
+    .in{
+        display: flex ;
+        flex-direction: column;
+    }
+    #contact #contact_form{
+        margin: 20px 50px;
+        color: white;
+        
+    }
+    #owner{
+        margin: 10px 40px;
+        font-size: 20px;
+    }
+    #copy{
+        margin: 10px 80px;
+        color: black;
+    }
+    .icon{
+        padding-right: 0px;
+    }
+    #contact{
+        width: 300px;
+        height: 400px;
+    }
+
+  }
+
+
+
+
+   
+
+
+
+
+
+    
